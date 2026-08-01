@@ -27,3 +27,8 @@ finishBtn.addEventListener("click", function() {
         ifNotPressedText.textContent = "bro u have to like... answer...";
     }
 });
+
+let supportDinoBtn = document.getElementById("supportDinoBtn")
+supportDinoBtn.addEventListener("click", function() {
+    location.href = "https://www.youtube.com/@dinodoomz?sub_confirmation=1";
+});
